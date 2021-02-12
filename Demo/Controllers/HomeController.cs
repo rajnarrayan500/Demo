@@ -19,6 +19,11 @@ namespace Demo.Controllers
         }
 
         //adding a commets
+        public IActionResult Demo()
+        {
+
+            return Json("This is Test");
+        }
         public IActionResult Index()
         {
             return View();
